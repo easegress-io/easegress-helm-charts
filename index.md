@@ -17,5 +17,5 @@ helm install easegress easegress/easegress
 ## Install Ingress Controller
 
 ```bash
-helm install ingress-easegress easegress/ingress-controller
+helm install ingress-easegress easegress/easegress-ingress-controller
 ```
