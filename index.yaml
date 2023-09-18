@@ -10,7 +10,7 @@ entries:
     name: easegress
     type: application
     urls:
-    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-ingress-controller-1.0.0/easegress-ingress-controller-1.0.0.tgz/charts/easegress-1.0.0.tgz
+    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-1.0.0/easegress-1.0.0.tgz
     version: 1.0.0
   easegress-ingress-controller:
   - apiVersion: v2
@@ -21,6 +21,6 @@ entries:
     name: easegress-ingress-controller
     type: application
     urls:
-    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-ingress-controller-1.0.0/easegress-ingress-controller-1.0.0.tgz/charts/easegress-ingress-controller-1.0.0.tgz
+    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-ingress-controller-1.0.0/easegress-ingress-controller-1.0.0.tgz
     version: 1.0.0
 generated: "2023-09-18T02:14:42.530814197Z"
