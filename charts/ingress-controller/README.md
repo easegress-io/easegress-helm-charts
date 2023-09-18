@@ -2,21 +2,14 @@
 
 Helm charts for installing Easegress ingress controller on Kubernetes
 
-## Setup
-
-```shell
-# create namespace at first
-kubectl create ns ingress-easegress
-```
-
 ## Usage
 
 ```shell
 # install with default values
-helm install ingress-easegress -n ingress-easegress ./helm-charts/ingress-controller
+helm install ingress-easegress -n ingress-easegress easegress/easegress-ingress-controller
 
 # install with custom values
-helm install ingress-easegress -n ingress-easegress ./helm-charts/ingress-controller \
+helm install ingress-easegress -n ingress-easegress easegress/easegress-ingress-controller \
   --set service.nodePort=4080 \
   --set image.tag=v1.4.0 \
   --set ingressClass.name=test-eg \
@@ -24,7 +17,7 @@ helm install ingress-easegress -n ingress-easegress ./helm-charts/ingress-contro
   --set 'controller.namespaces={ingress-easegress, default}'
 ```
 
-You can reference [this example](/doc/reference/ingresscontroller.md#create-backend-service--kubernetes-ingress) for creating Kubernetes Ingress rules.
+You can reference [this example](https://github.com/megaease/easegress/blob/main/doc/reference/ingresscontroller.md#create-backend-service--kubernetes-ingress) for creating Kubernetes Ingress rules.
 
 ## Uninstall
 

@@ -3,12 +3,6 @@
 Helm charts for installing Easegress on Kubernetes.
 
 ## Setup
-
-```shell
-# create namespace at first
-kubectl create ns easegress
-```
-
 ### Prepare persistent volume (optional)
 
 If you are going to use persistent volumes, run following shell command on each persistent volume node:
@@ -23,21 +17,21 @@ sudo chmod 700 /opt/easegress
 ```shell
 
 # install with default values
-helm install easegress -n easegress ./helm-charts/easegress
+helm install easegress easegress/easegress
 
 # install with custom values
-helm install easegress -n easegress ./helm-charts/easegress \
+helm install easegress -n easegress easegress/easegress \
   --set service.nodePort=4080 \
   --set image.tag=v1.5.0 \
 
 # install cluster of 3 primary and 2 secondary Easegress instances
-helm install easegress -n easegress ./helm-charts/easegress \
+helm install easegress -n easegress easegress/easegress \
   --set cluster.primaryReplicas=3 \
   --set cluster.secondaryReplicas=2
 
 # install using persistentVolume on node with hostname "hostname-xyz"
 # to support recovery when pod crashes
-helm install easegress -n easegress ./helm-charts/easegress \
+helm install easegress -n easegress easegress/easegress \
   --set cluster.volumeType=persistentVolume \
   --set 'cluster.nodeHostnames={hostname-xyz}'
 ```
