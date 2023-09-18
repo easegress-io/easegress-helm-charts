@@ -15,6 +15,8 @@ $ helm repo add easegress https://megaease.github.io/easegress-helm-charts
 
 You can then run `helm search repo easegress` to see the charts.
 
+See more details in [Easegress](./charts/easegress/README.md). and [Ingress Controller](./charts/ingress-controller/README.md).
+
 ## License
 
 [Apache 2.0 License](./LICENSE).
