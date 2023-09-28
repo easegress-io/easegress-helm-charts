@@ -41,7 +41,7 @@ spec:
     nodePort: {{ .Values.service.adminPort }}
   selector:
     app: {{ .Release.Name }}
-  type: NodePort
+  type: {{ .Values.query.type }}
 
 ---
 kind: Service
@@ -57,4 +57,4 @@ spec:
       protocol: TCP
       port: 8080
       nodePort: {{ .Values.service.nodePort }}
-  type: NodePort
+  type: {{ .Values.query.type }}
