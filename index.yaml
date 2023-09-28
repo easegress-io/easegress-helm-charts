@@ -3,6 +3,17 @@ entries:
   easegress:
   - apiVersion: v2
     appVersion: 2.6.1
+    created: "2023-09-28T04:08:56.360594172Z"
+    description: A Helm chart for Easegress
+    digest: 96f3911dd01f16a52eb94ec1e62af018acd82b931ae88cd97983069200b2a5ba
+    icon: https://raw.github.com/megaease/easegress/main/doc/imgs/easegress.svg
+    name: easegress
+    type: application
+    urls:
+    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-1.0.2/easegress-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 2.6.1
     created: "2023-09-20T06:39:07.29489036Z"
     description: A Helm chart for Easegress
     digest: fb81d1b7928f978383833e1d4a6f7eb48e79b41a101587a5bede202893276881
@@ -24,6 +35,16 @@ entries:
     - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-1.0.0/easegress-1.0.0.tgz
     version: 1.0.0
   easegress-ingress-controller:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2023-09-28T04:08:56.507395861Z"
+    description: A Helm chart for Easegress ingress  controller
+    digest: 6946290914a369c5f27f21741a417ff91d8b5a5992cca3138744a7a91eb49252
+    name: easegress-ingress-controller
+    type: application
+    urls:
+    - https://github.com/megaease/easegress-helm-charts/releases/download/easegress-ingress-controller-1.0.2/easegress-ingress-controller-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2023-09-20T06:39:07.45996773Z"
