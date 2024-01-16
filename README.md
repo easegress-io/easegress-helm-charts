@@ -1,6 +1,7 @@
 # easegress-helm-charts
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feasegress-io%2Feasegress-helm-charts.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Feasegress-io%2Feasegress-helm-charts?ref=badge_shield)
 
 ## Usage
 
@@ -20,3 +21,6 @@ See more details in [Easegress](./charts/easegress/README.md). and [Ingress Cont
 ## License
 
 [Apache 2.0 License](./LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feasegress-io%2Feasegress-helm-charts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Feasegress-io%2Feasegress-helm-charts?ref=badge_large)
